@@ -1,0 +1,116 @@
+/*我是註解*/
+
+p {
+  color: white; /*字體顏色，精確顏色可使用色碼表*/
+}
+
+h1 {
+  font-size: 40px; /*字體大小*/
+  text-align: center; /*文字位置:置中*/
+  color: white;
+  font-family:lucida, arial;
+}
+
+
+h3, h4 {
+  font-size: 20px;    
+  line-height: 2; /*字體範圍高度（行間距）*/
+  letter-spacing: 1px; /*文字間的字距*/
+  color: white;
+  font-family:arial;
+}
+h6{
+ font-size: 15px;    
+  line-height: 2; /*字體範圍高度（行間距）*/
+  letter-spacing: 1px; /*文字間的字距*/
+  color: white;
+  font-family:arial;
+
+}
+
+strong {
+  background-color: yellow; /*背景顏色*/
+}
+
+body {
+ 
+  background-repeat:repeat;
+  background-color: #000000;
+  color: white;
+  font-family:arial;
+
+}
+
+.bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }
+
+
+#nav{
+  height:50px;
+  width:700px;  
+  background:#eee;
+  margin:0 auto;/*0 上下 auto 左右*/
+  margin-bottom:50px;
+  }
+
+#nav ul{
+  /*box-shadow:0 0 10px rgba(0,0,0,.2); 向框新增一個或多個陰影*/
+  list-style:none;/*在一個宣告中設定所有的列表屬性*/ 
+  /*white-space:nowrap 段落中的文字不進行換行*/
+  }
+  
+#nav ul li {
+    float:left;
+  width:200px;
+  line-height:40px;
+  text-align:center;
+  position:relative;
+}
+
+#nav ul li a{
+  text-decoration:none;
+  color:#333;
+  padding:5px 10px;
+  display:block;
+  }
+
+
+ /* 在一級選單中，滑鼠放上去的樣式 */
+#nav ul li a:hover {
+    color:#5599ff;
+    }
+#nav ul li ul{
+  position:absolute;/*防止一級選單隨二級選單變化而變化*/
+  left:0px;
+  top:40px;
+  display:none;
+}
+ /* 滑鼠放在一級選單上，顯示二級選單 */
+#nav ul li ul li{
+    float:none;
+  text-align:center;
+  margin-top:2px;
+  background-color:#eee;
+  }
+
+#nav ul li ul li a{
+  width:80px;
+}
+ /* 在二級選單中，滑鼠放上去的樣式 */
+ #nav ul li ul li a:hover {
+        background-color:#eee;
+ }
+#nav ul li:hover ul{
+    display:block;
+}
+  

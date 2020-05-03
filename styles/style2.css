@@ -1,0 +1,70 @@
+p {
+  color: white; /*字體顏色，精確顏色可使用色碼表*/
+}
+
+h1 {
+  font-size: 40px; /*字體大小*/
+  text-align: center; /*文字位置:置中*/
+  color:#007799;
+  font-family:lucida, arial;
+}
+h5 {
+  font-size: 40px; /*字體大小*/
+  text-align: center; /*文字位置:置中*/
+  color:purple;
+  font-family:lucida, arial;
+}
+
+h2{
+  font-size: 35px; /*字體大小*/
+  text-align: center; /*文字位置:置中*/
+  color:gray;
+  font-family:arial;
+}
+
+
+h3, h4 {
+  font-size: 20px;    
+  line-height: 2; /*字體範圍高度（行間距）*/
+  letter-spacing: 1px; /*文字間的字距*/
+  color: gray;
+  font-family:arial;
+}
+
+h6 {
+  font-size: 30px;    
+  color: #007799;
+  font-family:arial;
+}
+
+
+
+strong {
+  background-color: yellow; /*背景顏色*/
+}
+
+body {
+	
+	
+	background-repeat:repeat;
+	background-color: #000000;
+	color: white;
+	font-family:arial;
+
+}
+
+/*背景滿版*/
+.bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }
+
+ 
